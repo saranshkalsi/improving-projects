@@ -1,0 +1,40 @@
+nav {
+
+  background-color: gold;
+   text-align: left;
+
+}
+#main {
+
+
+  text-align: center;
+   background: radial-gradient(white,gold, white);
+
+}
+#title {
+  color: white;
+  background-color: black;
+  font-size: 20px;
+  font-weight: 600;
+  margin: 20px;
+  padding: 20px;
+  border: 3px solid gold;
+}
+
+
+#img-div {
+
+  height: auto;
+}
+
+#image {
+  display: block;
+  width: auto;
+  height: auto;
+  margin: 10px auto;
+  vertical-align: middle;
+  max-width: 625px;
+}
+#img-caption {
+  background-color: #c2c2a3
+}
