@@ -2,6 +2,9 @@
   margin: 0;
   padding: 0;
 }
+html {
+  width: 100%;
+}
 
 
 #navbar {
@@ -9,7 +12,9 @@
  display: block;
 background-color: white;
 width: 100%;
-padding: 10px;
+padding-top: 20px;
+padding-bottom: 20px;
+margin: 5px;
 border-bottom: 3px solid black;
 overflow: hidden;
 
@@ -32,11 +37,32 @@ li a {
 li a:hover {
   background-color: #f9ffe5;
 }
-.main
+body
   {
-   width: 100%;
-   background-image: url("ramos1.jpg");
-   background-position: center;
-   background-repeat: no-repeat;
-   background-size: cover;
+   width: auto;
+
  }
+h1  {
+  color: white;
+  position: absolute;
+  left: 41%;
+  font-size: 47px;
+
+}
+.column {
+  float: left;
+  width: 50%;
+  text-align: center;
+  background-color: gold;
+  height: 150px;
+  
+
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+
+}
